@@ -1,42 +1,42 @@
-const Condition=[
+const Condition = [
     {
-       id:1,
-       name:'Excellent'
+       id: 1,
+       name: 'Excellent'
     },
     {
-        id:2,
-        name:'Good'
+        id: 2,
+        name: 'Good'
     },
     {
-        id:3,
-        name:'Average'
+        id: 3,
+        name: 'Average'
     },
     {
-        id:4,
-        name:'Fair'
-        },
-        {
-            id:5,
-            name:'Poor'
+        id: 4,
+        name: 'Fair'
+    },
+    {
+        id: 5,
+        name: 'Poor'
     }
 ]
 
-const Budget=[
+const Budget = [
     {
-       id:1,
-       name:'< 1,000,000 '
+       id: 1,
+       name: '< 1,000,000 '
     },
     {
-        id:2,
-        name:'< 10,000,000 '
+        id: 2,
+        name: '< 10,000,000 '
     },
     {
-        id:3,
-        name:'< 100,000,000'
+        id: 3,
+        name: '< 100,000,000'
     },
     {
-        id:4,
-        name:'100,000,000+'
+        id: 4,
+        name: '100,000,000+'
     },
 ]
 
@@ -61,49 +61,49 @@ const Location = [
     { id: 18, name: 'Oshodi-Isolo' },
     { id: 19, name: 'Shomolu' },
     { id: 20, name: 'Surulere' }
-  ]
+]
 
-  const Category =[
+const Category = [
     {
-        id:1,
-        name:'Home',
-        icon:'/public/icons/home.png'
+        id: 1,
+        name: 'Home',
+        icon: '/icons/home.png' // Removed '/public'
     },
     {
-        id:2,
-        name:'Room',
-        icon: '/public/icons/room.png'
+        id: 2,
+        name: 'Room',
+        icon: '/icons/room.png' // Removed '/public'
     },
     {
-        id:3,
-        name:'Office',
-        icon:'/public/icons/office.png'
+        id: 3,
+        name: 'Office',
+        icon: '/icons/office.png' // Removed '/public'
     },
     {
-        id:4,
-        name:'Commercial Building',
-        icon:'/public/icons/office-building.png'
+        id: 4,
+        name: 'Commercial Building',
+        icon: '/icons/office-building.png' // Removed '/public'
     },
     {
-        id:5,
-        name:'Garage',
-        icon:'/public/icons/garage.png'
+        id: 5,
+        name: 'Garage',
+        icon: '/icons/garage.png' // Removed '/public'
     },
     {
-        id:6,
-        name:'Storage Room',
-        icon:'/public/icons/storage.png'
+        id: 6,
+        name: 'Storage Room',
+        icon: '/icons/storage.png' // Removed '/public'
     },
     {
-        id:7,
-        name:'Land',
-        icon:'/public/icons/land (2).png'
+        id: 7,
+        name: 'Land',
+        icon: '/icons/land (2).png' // Removed '/public'
     },
 ]
 
-export default{
+export default {
     Condition,
     Budget,
     Location,
-    Category
+    Category,
 }
