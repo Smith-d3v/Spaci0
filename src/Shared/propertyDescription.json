@@ -1,0 +1,124 @@
+{
+    "propertyDescription": [
+        {
+            "label": "Listing Title",
+            "name": "listingTitle",
+            "fieldType": "text",
+            "required": true,
+            "column": 2,
+            "icon": "MdTitle"
+        },
+        {
+            "label": "Category",
+            "name": "category",
+            "fieldType": "dropdown",
+            "options": ["Home", "Room", "Office", "Commercial Building", "Garage", "Storage Room", "Land"],
+            "required": true,
+            "column": 2,
+            "icon": "MdCategory"
+        },
+        {
+            "label": "Location",
+            "name": "location",
+            "fieldType": "text",
+            "required": true,
+            "column": 2,
+            "icon": "FaMapLocationDot"
+        },
+        {
+            "label": "Size/Area (m2)",
+            "name": "sizeArea",
+            "fieldType": "number",
+            "required": false,
+            "column": 2,
+            "icon": "PiResizeDuotone"
+        },
+        {
+            "label": "Condition",
+            "name": "condition",
+            "fieldType": "dropdown",
+            "options": ["Excellent", "Good", "Average", "Fair", "Poor"],
+            "required": false,
+            "column": 2,
+            "icon": "MdOutlineNewReleases"   
+        },
+        {
+            "label": "Building Age",
+            "name": "buildingAge",
+            "fieldType": "dropdown",
+            "options": ["New (< 5 years)", "Mid-Age (5-20 years)", "Older (> 20 years)"],
+            "required": false,
+            "column": 2,
+            "icon": "MdHomeWork"
+        },
+        {
+            "label": "Nearby Facilities",
+            "name": "nearbyFacilities",
+            "fieldType": "multiselect",
+            "options": ["Schools", "Hospitals", "Parks", "Police", "Public Transportation"],
+            "required": false,
+            "column": 2,
+            "icon": "MdLocationCity"
+        },
+        {
+            "label": "Offer Type",
+            "name": "offerType",
+            "options": ["Sale", "Rent"],
+            "fieldType": "dropdown",
+            "required": true,
+            "column": 2,
+            "icon": "MdLocalOffer"
+        },
+        {
+            "label": "Price (₦)",
+            "name": "price",
+            "fieldType": "number",
+            "required": true,
+            "column": 2,
+            "icon": "GiMoneyStack"
+        },
+        {
+            "label": "Price Negotiable",
+            "name": "priceNegotiable",
+            "fieldType": "dropdown",
+            "options": ["Yes", "No"],
+            "required": false,
+            "column": 2,
+            "icon": "MdHandshake"
+        },
+        {
+            "label": "Payment Terms",
+            "name": "paymentTerms",
+            "fieldType": "dropdown",
+            "options": ["Monthly Payments", "Quarterly Payments", "Yearly Payments"],
+            "required": false,
+            "column": 2,
+            "icon": "MdPayments"
+        },
+        {
+            "label": "Availability Date",
+            "name": "availabilityDate",
+            "fieldType": "date",
+            "required": false,
+            "column": 2,
+            "icon": "MdDateRange"
+        },
+        {
+            "label": "Deposit Required",
+            "name": "DepositRequired",
+            "fieldType": "dropdown",
+            "options": ["Yes", "No"],
+            "required": false,
+            "column": 2,
+            "icon": "MdAttachMoney"
+        },
+        {
+            "label": "Listing Description",
+            "name": "listingDescription",
+            "fieldType": "textarea",
+            "required": true,
+            "column": 2,
+            "icon": "TbFileDescription"
+        }
+    ]
+}

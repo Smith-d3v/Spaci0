@@ -1,0 +1,144 @@
+{
+    "amenities": [
+        {
+            "label": "Security Personnel",
+            "name": "securityPersonnel",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "CCTV Surveillance",
+            "name": "cctvSurveillance",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Locking Mechanism",
+            "name": "lockingMechanism",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Gated Access",
+            "name": "gatedAccess",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Fire Safety (Smoke Detectors/Fire Extinguishers)",
+            "name": "fireSafety",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Perimeter Wall",
+            "name": "perimeterWall",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Utilities (Water, Electricity, Gas)",
+            "name": "utilities",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Backup Power Supply (Generators/Solar)",
+            "name": "backupPowerSupply",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Internet Connectivity",
+            "name": "internetConnectivity",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Air Conditioning",
+            "name": "airConditioning",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Smart Home Features",
+            "name": "smartHomeFeatures",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Furnished",
+            "name": "furnished",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Laundry Facilities",
+            "name": "laundryFacilities",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Gym/Fitness Center",
+            "name": "gymFitnessCenter",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Swimming Pool",
+            "name": "swimmingPool",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Child-Friendly",
+            "name": "childFriendly",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Landscaped Gardens",
+            "name": "landscapedGardens",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Parking",
+            "name": "parking",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Elevator",
+            "name": "elevator",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Wheelchair Accessibility",
+            "name": "wheelchairAccessibility",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Shared/Common Spaces",
+            "name": "sharedSpaces",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Balcony/Terrace",
+            "name": "balconyTerrace",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Outdoor Space",
+            "name": "outdoorSpace",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Receptionist",
+            "name": "receptionist",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "On-Site Management",
+            "name": "onSiteManagement",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Conference/Meeting Rooms",
+            "name": "conferenceMeetingRooms",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "Pet-Friendly",
+            "name": "petFriendly",
+            "fieldType": "checkbox"
+        },
+        {
+            "label": "24/7 Access",
+            "name": "twentyFourSevenAccess",
+            "fieldType": "checkbox"
+        }
+    ]
+}
