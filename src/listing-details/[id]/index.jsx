@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Header from '../../components/Header'
-import DetailHeader from '../components/detailHeader'
+import DetailHeader from '../components/DetailHeader'
 import { useParams } from 'react-router-dom'
 import { db } from './../../../configs'
 import { PropertyListing, PropertyImages } from './../../../configs/schema'
