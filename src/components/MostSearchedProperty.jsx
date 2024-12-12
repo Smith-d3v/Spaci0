@@ -10,7 +10,7 @@ import {
   } from "@/components/ui/carousel"  
 import { PropertyListing,PropertyImages } from './../../configs/schema'
 import { eq,desc } from 'drizzle-orm'
-import Service from '@/Shared/service'
+import Service from '../Shared/Service';
 import { db } from './../../configs'
 import { useState,useEffect } from 'react'
 
