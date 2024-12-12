@@ -12,7 +12,7 @@ function Category() {
             {Data.Category.map((category,index)=>(
               <Link to={'/search/'+category.name}>
                 <div className='items-center flex flex-col hover:shadow-sm cursor-pointer'>
-                    <img src={`/Icons/${category.icon}`} width={35} height={35} />
+                    <img src={category.icon} width={35} height={35}/>
                     <h2 className='mt-2 text-black'>{category.name}</h2>
                 </div>
               </Link>
