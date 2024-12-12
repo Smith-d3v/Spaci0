@@ -19,7 +19,7 @@ import { toast } from 'sonner';
 import { useNavigate,useSearchParams } from 'react-router-dom'
 import { useUser } from '@clerk/clerk-react'
 import { eq } from 'drizzle-orm'
-import Service from '@/Shared/service'
+import Service from '../Shared/Service';
 import MultiSelectField from './components/MultiSelectField';
 
 function AddListing() {
