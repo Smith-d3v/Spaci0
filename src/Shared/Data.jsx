@@ -105,5 +105,5 @@ export default{
     Condition,
     Budget,
     Location,
-    Category,
+    Category
 }
