@@ -1,11 +1,3 @@
-import homeIcon from '../assets/icons/home.png'
-import roomIcon from '../assets/icons/room.png'
-import officeIcon from '../assets/icons/office.png'
-import buildingIcon from '../assets/icons/office-building.png'
-import garageIcon from '../assets/icons/garage.png'
-import storageIcon from '../assets/icons/storage.png'
-import landIcon from '../assets/icons/land (2).png'
-
 const Condition=[
     {
        id:1,
@@ -75,37 +67,37 @@ const Location = [
     {
         id: 1,
         name: 'Home',
-        icon: homeIcon
+        icon: '/icons/home.png'
     },
     {
         id:2,
         name:'Room',
-        icon: roomIcon
+        icon: '/icons/room.png'
     },
     {
         id:3,
         name:'Office',
-        icon: officeIcon
+        icon: '/icons/office.png'
     },
     {
         id:4,
         name:'Commercial Building',
-        icon: buildingIcon
+        icon: '/icons/office-building.png'
     },
     {
         id:5,
         name:'Garage',
-        icon: garageIcon
+        icon: '/icons/garage.png'
     },
     {
         id:6,
         name:'Storage Room',
-        icon: storageIcon
+        icon: '/icons/storage.png'
     },
     {
         id:7,
         name:'Land',
-        icon: landIcon
+        icon: '/icons/land (2).png'
     },
 ]
 
